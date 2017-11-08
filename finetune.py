@@ -27,8 +27,8 @@ Configuration Part.
 """
 
 # Path to the textfiles for the trainings and validation set
-train_file = '/path/to/train.txt'
-val_file = '/path/to/val.txt'
+train_file = 'train.txt'
+val_file = 'val.txt'
 
 # Learning params
 learning_rate = 0.01
@@ -44,8 +44,8 @@ train_layers = ['fc8', 'fc7', 'fc6']
 display_step = 20
 
 # Path for tf.summary.FileWriter and to store model checkpoints
-filewriter_path = "/tmp/finetune_alexnet/tensorboard"
-checkpoint_path = "/tmp/finetune_alexnet/checkpoints"
+filewriter_path = "./tmp/finetune_alexnet/tensorboard"
+checkpoint_path = "./tmp/finetune_alexnet/checkpoints"
 
 """
 Main Part of the finetuning Script.
